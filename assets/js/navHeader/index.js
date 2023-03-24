@@ -79,7 +79,7 @@ export function footer(paths) {
     </form>
   </section>
   <div class="footer__dev">
-  <p>Desenvolvido por Edinaldofcs</p>
+  <p>Desenvolvido por <a href="https://github.com/renanaugust">Renan Augusto</a></p>
   </div>
   `;
 

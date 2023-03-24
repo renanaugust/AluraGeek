@@ -12,7 +12,7 @@
   }
   
   body {
-    background-color: var(--white_background);
+    background-color: var(--background_header);
     color: var(--white_100);
   }
   

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>AluraGeek</title>
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/components/nav-header.css">
+  <link rel="stylesheet" href="../../css/components/logo.css">
+  <link rel="stylesheet" href="../../css/components/footer.css">
+  <link rel="stylesheet" href="../../css/components/btn.css">
+  <link rel="stylesheet" href="../../css/components/content.css">
+  <link rel="stylesheet" href="add-product.css">
+  
+
+</head>
+
+<body>
+  <nav class="navHeader" data-nav>
+    <!-- JS  -->
+  </nav>
+
+  <main>
+    <form action="" class="add__product" data-form>
+      <h1>Adicionar novo produto</h1>
+      <div class="add__product--upload">
+        <div class="upload__file">
+          <img src="../../img/adicionar.png" alt="Imagem de montanhas">
+          <p>Arraste para adicionar uma imagem para o produto</p>
+          <input id='select' type='file' class="add__product--select" multiple accept="image/*"/>
+        </div>
+        <p>Ou</p>
+        <label for='select' class="btn__submit label">Fazer upload
+          <input id='select' type='file' class="add__product--select" multiple accept="image/*"/>
+        </label>        
+      </div>
+      <div class="add__product--input">
+        <p class="img__select" data-imgFile></p>
+        <input type="text" placeholder="Descreva a imagem" required id="alt"/>
+        <input type="text" placeholder="Categoria do produto" required id="categoria"/>
+        <input type="text" placeholder="Nome do Produto" required id="nome"/>
+        <input type="number" placeholder="Preço do produto" required id="preco"/>
+        <textarea placeholder="Descrição do produto" required id="descricao"></textarea>
+        <input type="submit" class="btn__submit" value="Adicionar produto" data-send>
+      </div>
+      <div class="msg" data-msg>Cadastrado com sucesso</div>
+    </form>
+  </main>
+
+  <footer data-footer>
+    <!-- JS -->
+  </footer>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>

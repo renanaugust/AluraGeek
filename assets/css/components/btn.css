@@ -1,0 +1,39 @@
+@import '../color-dark.css';
+
+.btn__submit{
+  color:#5A7FDB;
+  cursor: pointer;
+  background: var(--white_background);
+  border: 0;
+  padding: 16px;
+  transition: 0.4s;
+  width: fit-content;
+}
+
+.btn__login{
+  border: 2px solid var(--blue_primary);
+  color: var(--blue_primary);
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 20px;
+  padding: 16px 24px;
+  transition: 0.4s;
+  width: fit-content;
+}
+
+.btn__login:hover{
+  background-color: var(--blue_secondary);
+}
+.btn__submit:hover{
+  background-color: var(--blue_primary_hover);
+}
+
+#btn__color{
+  color: var(--white_100);
+} 
+
+@media screen and (min-width: 630px) {
+  .lupa__hidden{
+    display: none;
+  }
+}

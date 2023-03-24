@@ -1,0 +1,74 @@
+:root {
+    --blue_primary: #5A7FDB;
+    --blue_secondary: #272727;
+    --blue_primary_hover: #7298FF;
+    --blue_img: #B4B4B4;
+    --white_background: #1E1E1E;
+    --white_footer: #2D2D2D;
+    --white_100: #FFFFFF;
+    --background_header: #212121;
+    --erro: #FF6961;
+    --enviar: #4CAF50;
+  }
+  
+  body {
+    background-color: var(--white_background);
+    color: var(--white_100);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--white_100);
+  }
+  
+  a {
+    color: var(--blue_primary);
+  }
+  
+  a:hover {
+    color: var(--blue_primary_hover);
+  }
+  
+  header {
+    background-color: var(--background_header);
+    color: var(--white_100);
+  }
+  
+  footer {
+    background-color: var(--white_footer);
+    color: var(--white_100);
+  }
+  
+  .button {
+    background-color: var(--blue_primary);
+    color: var(--white_100);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--blue_primary_hover);
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    background-color: var(--white_100);
+    color: var(--blue_secondary);
+    border: 1px solid var(--blue_secondary);
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: var(--blue_primary);
+  }
+  
+  .error {
+    color: var(--erro);
+  }
+  
+  .success {
+    color: var(--enviar);
+  }
+  
